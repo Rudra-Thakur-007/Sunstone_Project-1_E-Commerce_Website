@@ -14,14 +14,16 @@
     </header>
     <main>
         <h1>Login</h1>
-        <form action="#" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+        <form action="index.html" method="post">
+            <table class="lg-table">
+           <tr> <th><label for="username">Username:</label></th>
+           <th><input type="text" id="username" name="username" required></th></tr>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        <tr><th> <label for="password">Password:</label></th>
+    <th><input type="password" id="password" name="password" required></th></tr>
 
-            <button type="submit">Login</button>
+           <tr> <th colspan="2"><input type="submit" value="Login"></th></tr>
+        </table>
         </form>
     </main>
 </body>
